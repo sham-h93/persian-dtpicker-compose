@@ -1,4 +1,4 @@
-package com.hosseinshamkhani.persiandtpicker
+package com.hosseinshamkhani.persiandtpickercompose
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

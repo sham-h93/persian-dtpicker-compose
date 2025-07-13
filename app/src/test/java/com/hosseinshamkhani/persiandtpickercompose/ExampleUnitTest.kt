@@ -1,4 +1,4 @@
-package com.hosseinshamkhani.persiandtpicker
+package com.hosseinshamkhani.persiandtpickercompose
 
 import org.junit.Test
 

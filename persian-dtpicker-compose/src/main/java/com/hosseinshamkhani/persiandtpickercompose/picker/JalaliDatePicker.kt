@@ -1,4 +1,4 @@
-package com.hosseinshamkhani.persiandtpicker.picker
+package com.hosseinshamkhani.persiandtpickercompose.picker
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -19,10 +19,10 @@ import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
-import com.hosseinshamkhani.persiandtpicker.components.WheelPicker
-import com.hosseinshamkhani.persiandtpicker.utils.DateUtils
-import com.hosseinshamkhani.persiandtpicker.utils.PersianNumberUtils.formatToHindiIfLanguageIsFa
-import com.hosseinshamkhani.persiandtpicker.utils.PersianNumberUtils.toArabicDigits
+import com.hosseinshamkhani.persiandtpickercompose.components.WheelPicker
+import com.hosseinshamkhani.persiandtpickercompose.utils.DateUtils
+import com.hosseinshamkhani.persiandtpickercompose.utils.PersianNumberUtils.formatToHindiIfLanguageIsFa
+import com.hosseinshamkhani.persiandtpickercompose.utils.PersianNumberUtils.toArabicDigits
 import ir.huri.jcal.JalaliCalendar
 
 @Composable

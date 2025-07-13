@@ -1,4 +1,4 @@
-package com.hosseinshamkhani.persiandtpicker.utils
+package com.hosseinshamkhani.persiandtpickercompose.utils
 
 import java.util.Locale
 

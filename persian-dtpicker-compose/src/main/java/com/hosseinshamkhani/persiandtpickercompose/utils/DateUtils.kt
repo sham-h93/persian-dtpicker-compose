@@ -1,6 +1,6 @@
-package com.hosseinshamkhani.persiandtpicker.utils
+package com.hosseinshamkhani.persiandtpickercompose.utils
 
-import com.hosseinshamkhani.persiandtpicker.utils.PersianNumberUtils.padZeroToStartWithPersianDigits
+import com.hosseinshamkhani.persiandtpickercompose.utils.PersianNumberUtils.padZeroToStartWithPersianDigits
 
 internal object DateUtils {
 

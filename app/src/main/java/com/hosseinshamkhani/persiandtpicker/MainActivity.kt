@@ -20,8 +20,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
-import com.hosseinshamkhani.persiandtpicker.picker.JalaliDatePicker
-import com.hosseinshamkhani.persiandtpicker.picker.TimePicker
+import com.hosseinshamkhani.persiandtpickercompose.picker.JalaliDatePicker
+import com.hosseinshamkhani.persiandtpickercompose.picker.TimePicker
 import com.hosseinshamkhani.persiandtpicker.ui.theme.JalaliDateTimePickerTheme
 
 class MainActivity : ComponentActivity() {

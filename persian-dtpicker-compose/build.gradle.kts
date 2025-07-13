@@ -8,11 +8,11 @@ plugins {
 }
 
 val libGroupId = "com.github.sham-h93"
-val libArtifactId = "persian-dtpickerr-compose"
+val libArtifactId = "persian-dtpicker-compose"
 val libVersion = "1.0.0"
 
 android {
-    namespace = "com.persiandtpickercompose"
+    namespace = "com.hosseinshamkhani.persiandtpickercompose"
     compileSdk = 36
 
     defaultConfig {
@@ -58,7 +58,7 @@ dependencies {
 afterEvaluate {
     publishing {
         publications {
-            create<MavenPublication>("release") {
+            register<MavenPublication>("release") {
                 from(components["release"])
 
                 groupId = libGroupId

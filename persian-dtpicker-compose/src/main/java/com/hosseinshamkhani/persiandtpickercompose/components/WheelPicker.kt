@@ -1,4 +1,4 @@
-package com.hosseinshamkhani.persiandtpicker.components
+package com.hosseinshamkhani.persiandtpickercompose.components
 
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.Canvas
