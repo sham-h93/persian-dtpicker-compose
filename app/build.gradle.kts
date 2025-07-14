@@ -45,9 +45,9 @@ android {
 
 dependencies {
 
-//    implementation(project(":persian-dtpicker-compose"))
+    implementation(project(":persian-dtpicker-compose"))
 
-    implementation("com.github.sham-h93:persian-dtpicker-compose:1.0.0")
+//    implementation("com.github.sham-h93:persian-dtpicker-compose:1.0.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

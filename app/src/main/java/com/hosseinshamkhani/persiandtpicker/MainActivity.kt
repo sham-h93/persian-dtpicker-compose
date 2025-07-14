@@ -20,7 +20,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
-import com.hosseinshamkhani.persiandtpickercompose.picker.JalaliDatePicker
+import com.hosseinshamkhani.persiandtpickercompose.picker.PersianDatePicker
 import com.hosseinshamkhani.persiandtpickercompose.picker.TimePicker
 import com.hosseinshamkhani.persiandtpicker.ui.theme.JalaliDateTimePickerTheme
 
@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterVertically)
                     ) {
-                        JalaliDatePicker(
+                        PersianDatePicker(
                             onDateSelected = { jYear: Int, jMonth: Int, jDay: Int ->
                                 selectedDate = "Current date is: $jYear : $jMonth : $jDay"
                             },

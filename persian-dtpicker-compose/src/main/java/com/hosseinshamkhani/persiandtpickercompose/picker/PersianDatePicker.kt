@@ -26,7 +26,7 @@ import com.hosseinshamkhani.persiandtpickercompose.utils.PersianNumberUtils.toAr
 import ir.huri.jcal.JalaliCalendar
 
 @Composable
-fun JalaliDatePicker(
+fun PersianDatePicker(
     modifier: Modifier = Modifier,
     textStyle: TextStyle = MaterialTheme.typography.headlineMedium,
     fontFamily: FontFamily = FontFamily.Default,
