@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "PersianDtPickerCompose"
+include(":app")
 include(":persian-dtpicker-compose")

@@ -1,9 +1,2 @@
 jdk:
   - openjdk17
-before_install:
-  - export JAVA_HOME=$HOME/jdk
-  - export PATH=$JAVA_HOME/bin:$PATH
-  - mkdir -p $JAVA_HOME
-  - wget -nv https://download.java.net/java/GA/jdk17/0d1cfde4252546c6931946de8db48ee2/35/GPL/openjdk-17_linux-x64_bin.tar.gz -O jdk.tar.gz
-  - tar -xzf jdk.tar.gz -C $JAVA_HOME --strip-components=1
-  - java -version

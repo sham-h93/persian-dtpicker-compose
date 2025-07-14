@@ -22,7 +22,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
 import com.hosseinshamkhani.persiandtpickercompose.picker.PersianDatePicker
 import com.hosseinshamkhani.persiandtpickercompose.picker.TimePicker
-import com.hosseinshamkhani.persiandtpicker.ui.theme.JalaliDateTimePickerTheme
+import com.hosseinshamkhani.persiandtpicker.ui.theme.PersianDtPickerTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
             var selectedDate by remember { mutableStateOf("") }
             var selectedTime by remember { mutableStateOf("") }
 
-            JalaliDateTimePickerTheme {
+            PersianDtPickerTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Column(
                         modifier = Modifier
