@@ -21,5 +21,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "JalaliDateTimePicker"
-include(":app")
 include(":persian-dtpicker-compose")
